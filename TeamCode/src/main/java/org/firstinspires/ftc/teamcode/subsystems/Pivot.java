@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode.subsystems;
 
+import com.acmerobotics.dashboard.config.Config;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorEx;
 import com.qualcomm.robotcore.hardware.HardwareMap;
@@ -12,7 +13,7 @@ import org.firstinspires.ftc.teamcode.util.SplineInterpolator;
 import java.util.Arrays;
 import java.util.List;
 
-
+@Config
 public class Pivot extends Mechanism {
     //Parts
     public DcMotorEx slide, pivot;

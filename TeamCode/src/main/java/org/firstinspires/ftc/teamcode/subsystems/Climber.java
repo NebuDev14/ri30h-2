@@ -13,7 +13,7 @@ public class Climber extends Mechanism{
         climbMotor.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
     }
     public void releaseClimb() {
-        releaseServo.setPosition(-1);
+        releaseServo.setPosition(0.5);
     }
     public void setClimbPower(double power) {
         climbMotor.setPower(power);
